@@ -2,7 +2,7 @@
 
 A Model Context Protocol (MCP) server that enables Large Language Models (LLMs) to perform Optical Character Recognition (OCR) on PDF documents using local Vision models via **LM Studio**.
 
-This tool allows AI assistants to "read" PDFs, preserving original languages, mathematical formulas (LaTeX), and document structure, while avoiding external cloud APIs by leveraging your local hardware.
+This tool allows AI assistants to "read" PDFs, preserving original languages, mathematical formulas ($LaTeX$), and document structure, while avoiding external cloud APIs by leveraging your local hardware.
 
 ## Features
 

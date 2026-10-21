@@ -47,7 +47,7 @@ This tool allows AI assistants to "read" PDFs, preserving original languages, ma
 
 ### MCP Client Setup
 
-Add the server to your MCP client configuration (e.g., Claude Desktop, Cursor, etc.).
+Add the server to your MCP client configuration (LMstudio itself or Claude Desktop, Cursor, etc.).
 
 **Example for Claude Desktop (`claude_desktop_config.json`):**
 
@@ -64,7 +64,7 @@ Add the server to your MCP client configuration (e.g., Claude Desktop, Cursor, e
 }
 ```
 
-> **Note:** Replace `/absolute/path/to/...` with the actual path to the script on your system.
+> **Note:** python command should be replaced in case you use venv.
 
 ## Usage
 
@@ -114,6 +114,10 @@ Once connected, your AI assistant can use the `ocr_pdf_pages` tool.
 - **"No vision-capable model found"**:
   - Ensure you have loaded a Vision model in LM Studio (not just a text-only LLM).
   - Check LM Studio logs to ensure the server is running on port `1234`.
+
+## P.S.
+
+Developed for LM Studio usage with its API and this is the best way to use it. LM Studio can process all data with only one model loaded.
 
 ## License
 
